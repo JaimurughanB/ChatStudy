@@ -123,21 +123,16 @@ def server_program():
         conn.send(data.encode())  # send data to the client
 
     conn.close()  # close the connection
-
-
 if __name__ == '__main__':
     server_program()
-
-
 if __name__ == '__main__':
     client_program()
     
  ##OUTPUT:
  client
- ![image]
-server
-![image]
-
+![image](https://github.com/user-attachments/assets/0e9b9441-e6bd-4091-b550-40e3828e86d0)
+server:
+![image](https://github.com/user-attachments/assets/f579af28-f9e2-4635-827a-207f3f429a9f)
 
 ## Result:
 
