@@ -98,7 +98,7 @@ def client_program():
     client_socket.close()  # close the connection
     
     Server
-    import socket
+  import socket
 def server_program():
     # get the hostname
     host = socket.gethostname()
@@ -123,10 +123,9 @@ def server_program():
         conn.send(data.encode())  # send data to the client
 
     conn.close()  # close the connection
-if __name__ == '__main__':
-    server_program()
-if __name__ == '__main__':
-    client_program()
+
+      if __name__ == '__main__':
+    
     
  ##OUTPUT:
  client
