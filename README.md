@@ -96,10 +96,8 @@ def client_program():
         message = input(" -> ")  # again take input
 
     client_socket.close()  # close the connection
-
-
-if __name__ == '__main__':
-    client_program()
+     if __name__ == '__main__':
+    
     
 ## server:
 import socket
@@ -127,10 +125,8 @@ def server_program():
         conn.send(data.encode())  # send data to the client
 
     conn.close()  # close the connection
-
-
-if __name__ == '__main__':
-    server_program()
+     if __name__ == '__main__':
+   
     
     
  ##OUTPUT:
